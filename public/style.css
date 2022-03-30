@@ -1,0 +1,17 @@
+.code-snippet{
+    display: flex;
+    justify-content: center;
+}
+
+pre{
+    background-color: #272822;
+    color: white;
+    width: 900px;
+    border-radius: 15px;
+    padding: 30px;
+    overflow-x: auto;
+}
+
+code{
+    font-size: 20px !important;
+}
