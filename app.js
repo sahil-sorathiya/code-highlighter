@@ -11,7 +11,7 @@ const { data } = require('./temp_data.js') // String
 app.use('/public', express.static(path.join(__dirname, 'public')))
 
 // Setting template engine
-app.set('views', path.join(__dirname, '/.netlify/functions/views'))
+app.set('views', path.join(__dirname, '/views'))
 app.set('view engine', 'ejs')
 
 // Routes 
